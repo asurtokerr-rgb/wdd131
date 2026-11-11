@@ -1,0 +1,44 @@
+@media screen and (min-width:37.5rem) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: var(--background-color);
+        padding: 20px 50px;
+        align-items: center;
+        height: auto;
+    }
+
+    header h1 {
+        grid-column: 1/1;
+        color: white;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+        place-items: center;
+    }
+
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        grid-column: 2/2;
+        justify-content: space-between;
+
+    }
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+    }
+
+
+    #menu {
+        display: none;
+    }
+}
