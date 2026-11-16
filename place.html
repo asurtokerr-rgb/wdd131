@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - W03 Assignment: Country Page">
+    <meta name="author" content="Kerr Raphael Asurto">
+    <title>WDD 131 | Kerr Asurto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Redaction+10:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <!-- 1 picture for mobile view, 2 picture for web view: hero-small, hero-medium, and hero-large-->
+                <source srcset="images/mayon-large.webp" media="(min-width:1000px )">
+                <source srcset="images/mayon-medium.webp" media="(min-width:640px )">
+                <img class="one" src="images/mayon-small.webp" alt="Philippines Mayon Volcano" width="500" height="750">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <div class="label">
+                <p>Area:</p>
+                <p>Population:</p>
+                <p>Capital:</p>
+                <p>Languages:</p>
+                <p>Currency:</p>
+                <p>Time Zone:</p>
+                <p>Calling Code:</p>
+                <p>Internet TLD:</p>
+
+            </div>
+            <div class="values">
+                <p> 300,000 sq km</p>
+                <p> 112,729,484</p>
+                <p> Manila</p>
+                <p> Filipino, English, and 170 others</p>
+                <p> Philippine peso</p>
+                <p> UTC+8</p>
+                <p> +63</p>
+                <p> .ph</p>
+            </div>
+
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-sunny.svg" alt="sunny-weather-icon">
+            <div class="label">
+                <p>Temperature:</p>
+                <p>Condition:</p>
+                <p>Wind:</p>
+                <p>Wind Chill:</p>
+            </div>
+            <div class="values">
+                <p> 28 °C</p>
+                <p> Sunny</p>
+                <p> 5 km/h</p>
+                <p id="windChill"></p>
+            </div>
+
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> ✏️ Kerr Asurto ✏️ Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
