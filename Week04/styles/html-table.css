@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+}
+
+th[scope="col"] {
+    background-color: rgb(65, 68, 68);
+}
+
+th[scope="row"] {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: hsl(0, 0%, 93%, 1);
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+caption {
+    caption-side: bottom;
+}
