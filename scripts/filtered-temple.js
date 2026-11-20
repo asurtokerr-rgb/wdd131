@@ -78,7 +78,7 @@ const temples = [
         location: "Quezon City, Philippines",
         dedicated: "1984, September 25",
         area: 26683,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/029-Manila-Philippines-Temple.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manila-philippines/320x200/manila-philippines-temple-lds-129585-wallpaper.jpg"
     },
 
     {
@@ -86,7 +86,7 @@ const temples = [
         location: "Cebu City, Cebu, Philippines",
         dedicated: "2010, June 13",
         area: 29556,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/133-Cebu-City-Philippines-Temple.jpg"
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/3b515c363a8c71994bd6e110cf021fc84d9c90f6/full/500%2C/0/default"
     },
 
     {
@@ -94,7 +94,7 @@ const temples = [
         location: "Udaneta City, Pangasinan, Philippines",
         dedicated: "2024, April 28",
         area: 32604,
-        imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/urdaneta-philippines-temple/urdaneta-philippines-temple-45874-main.jpg"
+        imageUrl: "https://www.churchofjesuschrist.org/imgs/46910789b4c911eeaf5feeeeac1ed77e9a30ef3f/full/500%2C/0/default"
     }
 ];
 
