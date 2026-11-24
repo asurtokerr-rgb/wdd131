@@ -115,7 +115,7 @@ oldButton.addEventListener('click', () => {
 // new
 const newButton = document.querySelector("#new");
 newButton.addEventListener('click', () => {
-    let newTemples = temples.filter(temple => Number(temple.dedicated.split(',')[0]) > 1900); createTempleCards(newTemples)
+    let newTemples = temples.filter(temple => Number(temple.dedicated.split(',')[0]) > 2000); createTempleCards(newTemples)
 
 });
 
