@@ -104,7 +104,6 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 2rem;
-    align-content: top;
     margin: 0 auto;
 
 }
